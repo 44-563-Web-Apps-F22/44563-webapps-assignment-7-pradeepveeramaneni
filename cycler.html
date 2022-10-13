@@ -90,16 +90,16 @@
             if(cyclerItems.length > 1) 
             {
                 
-                //removedItem = cyclerItems[cyclerItems.length-1]
-                Randomitem1 = Math.floor(Math.random() * (cyclerItems.length-1) )
-                removedItem = cyclerItems[randomitem1]
-                cyclerItems[randomitem1].remove()
+                
+                Randomitem1 = Math.floor(Math.random() * (cyclerItems.length-1) )+1
+                removedItem = cyclerItems[cyclerItems.randomitem1]
+                cyclerItems[cyclerItems.randomitem1].remove()
+
                 let container = document.getElementById("target")
             
-               Randomitem2=cyclerItems[Math.floor(Math.random() *cyclerItems.length-1)]
+             //  Randomitem2=cyclerItems[Math.floor(Math.random() *cyclerItems.length-1)]
 
-                container.insertBefore(removedItem, container.secondChild)
-            //    container.insertBefore(removedItem, container.Randomitem2))
+                container.insertBefore(removedItem, container.random)
 
             }
         }
